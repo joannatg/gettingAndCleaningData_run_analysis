@@ -1,23 +1,36 @@
-# gettingAndCleaningData_run_analysis
-Data for the project
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+# Code Book for gettingAndCleaningData_run_analysis
+This code book describes STidyData.txt file located in this repository.
 
-Need to create one R script called run_analysis.R that does the following:
+See the README.md file of this repository for background information on this data set.
 
-1.	Merges the training and the test sets to create one data set.
-2.	Extracts only the measurements on the mean and standard deviation for each measurement.
-3.	Uses descriptive activity names to name the activities in the data set
-4.	Appropriately labels the data set with descriptive variable names.
-5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+Data
+The tidy_data.txt data file is a text file, containing space-separated values.
 
-activityLabels = 6 diff activities extracted from UCI HAR Dataset/activity_labels.txt
-features = all the features extracted from UCI HAR Dataset/features_info.txt
-f = extracts of only the mean and standard deviation from features
-measurements = name of features from f (cleaned up, with no paranthesis)
-XTrain/XTest- training/test data
-YTrain/YTest - training/test data labels
-trainSubjects/testSubjects - subjects for training or test set
-Test/Train  - final (combined) test/training set
-combined - final combined by subject, activity, label data  set
+The first row contains the variable names (isted and described in the Variables section), and the following rows contain the values for these variables.
 
+Variables
+Each row contains, for a given subject and activity, 79 averaged signal measurements.
+
+Identifiers
+I subject
+
+Subject identifier 1-30.
+
+II activity
+
+6 different activity types:
+
+(1) WALKING
+(2) WALKING_UPSTAIRS 
+(3) WALKING_DOWNSTAIRS
+(4) SITTING
+(5) STANDING
+(6) LAYING
+
+Tranformations
+
+The training and test sets were merged to create one data set.
+The measurements on the mean and standard deviation (i.e. signals containing the strings mean and std) were extracted for each measurement, the rest were discarded.
+The activity identifiers were replaced with descriptive activity names.
+The variable names were replaced with descriptive variable names.
 
