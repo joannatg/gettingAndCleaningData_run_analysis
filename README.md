@@ -1,6 +1,6 @@
-#getting and cleaning data - run_analysis project
+Getting and cleaning data - run_analysis project
 
-R script and code book are included in teh index.Rmd file
+R script and code book are included in the index.Rmd file
 
 Project criteria: 
 The submitted data set is tidy.
