@@ -3,7 +3,6 @@ This code book describes STidyData.txt file located in this repository.
 
 See the README.md file of this repository for background information on this data set.
 
-Data
 The STidyData.txt data file is a text file, with space as delimiter.
 
 The first row contains the variable names (isted and described in the Variables section), and the following rows contain the values for these variables.
