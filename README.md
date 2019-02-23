@@ -8,7 +8,6 @@ The STidyData.txt data file is a text file, with space as delimiter.
 
 The first row contains the variable names (isted and described in the Variables section), and the following rows contain the values for these variables.
 
-Variables
 Each row contains, for a given subject and activity, 79 averaged signal measurements.
 
 Subject identifier 1-30.
