@@ -11,12 +11,7 @@ The first row contains the variable names (isted and described in the Variables 
 Variables
 Each row contains, for a given subject and activity, 79 averaged signal measurements.
 
-Identifiers
-I subject
-
 Subject identifier 1-30.
-
-II activity
 
 6 different activity types:
 
